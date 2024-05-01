@@ -12,6 +12,7 @@ import StyleComponent2 from './StyleComponents/StyleComponent2'
 import StyleComponent3 from './StyleComponents/StyleComponent3'
 import ALLStateExample from './StateExample/ALLStateExample'
 import ALLTasks from './ALLTask/ALLTasks'
+import AllClassComponents from './5_Class_Components/AllClassComponents'
 
 export default function App() {
   return (
@@ -57,9 +58,13 @@ export default function App() {
 
 {/* All state example */}
 
-    {/* <ALLStateExample/> */}
+    <ALLStateExample/>
 
-    <ALLTasks/>
+    {/* <ALLTasks/> */}
+
+    {/* class components */}
+
+    {/* <AllClassComponents/> */}
 
     </div>
     

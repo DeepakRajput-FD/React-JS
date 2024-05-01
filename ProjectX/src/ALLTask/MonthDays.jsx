@@ -12,7 +12,7 @@ export default function MonthDays() {
 
     return (
     <div>
-        <input type="text" placeholder="Enter Months" onBlur={one} />
+        <input type="text" placeholder="Enter Months into days" onBlur={one} />
         <h2>{show}</h2>
     </div>
   )

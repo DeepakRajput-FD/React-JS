@@ -10,6 +10,9 @@ import InputStateExample from './InputStateExample'
 import InputStateExample2 from './InputStateExample2'
 import FirstName from './FirstName'
 import Calculator from './Calculator'
+import SpreadExample1 from './SpreadExample1'
+import Fruits from '../ALLTask/Fruits'
+import RevFruits from '../ALLTask/RevFruits'
 
 export default function ALLStateExample() {
   return (
@@ -43,6 +46,12 @@ export default function ALLStateExample() {
 {/* Calculator */}
 
     {/* <Calculator/> */}
+
+    {/* <SpreadExample1/> */}
+
+    {/* <Fruits/> */}
+
+    <RevFruits/>
 
     </div>
   )

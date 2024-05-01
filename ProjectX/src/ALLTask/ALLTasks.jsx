@@ -16,10 +16,10 @@ export default function ALLTasks() {
         {/* <TaskImg/> */}
         {/* <ButtonBack/> */}     
         
-        {/* <Factorial/> */}
-        {/* <DaysMonth/> */}
-          {/* <MonthDays/> */}
-        {/* <DaysAndMonth/> */}
+        <Factorial/>
+        <DaysMonth/>
+          <MonthDays/>
+        <DaysAndMonth/>
     </div>
   )
 }

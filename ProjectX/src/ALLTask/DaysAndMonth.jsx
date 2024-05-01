@@ -20,8 +20,8 @@ export default function DaysAndMonth() {
     return (
     <div>
         <input type="text" placeholder="Enter Years" onBlur={mainfun} />
-        <input type="text" placeholder="Month into Days" value={show1}  />
-        <input type="text" placeholder="Days into Months" value={show2} />
+        <input type="text" placeholder="Years into Months" value={show1}  />
+        <input type="text" placeholder="Years into Days" value={show2} />
     </div>
   )
 }
