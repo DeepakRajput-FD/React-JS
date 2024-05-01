@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 
 import Component1 from './Component1'
 
@@ -145,9 +145,10 @@ export default function DataAPI() {
           "thumbnailUrl": "https://via.placeholder.com/150/8985dc"
         }];
 
+
     return (
     <div>
-
+     
 {
     DataSubArr.map((e,i)=>
     {
