@@ -68,6 +68,7 @@ export default function RevFruits() {
         }
 
     {
+        
             third.map((e,i)=>
             {
                return <h1 key={i}>{e}</h1>

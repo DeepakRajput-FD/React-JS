@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainwarpper
+{
+    background: url(../../public/fruits.png) no-repeat center center/cover;
+    height: 700px;
+}
+
+.container
+{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px 0px;
+    flex-direction: column;
+}
+
+.style1
+{
+    color: red;
+    font-size: 25px;
+    text-transform: capitalize;
+    list-style: none;
+    padding:10px;
+}
+
+.style2
+{
+    margin:10px;
+    padding:5px;
+    font-size:20px;    
+    border-radius: 5px;
+    background-color: transparent;   
+}
+
+input::placeholder
+{
+    color: white;
+}
+
+    .style3
+    {
+            margin:10px;
+            padding:5px;
+            font-size:20px;
+            color:'white';     
+            background-color: red;
+            border-radius: 5px;  
+    }
+
+    .list
+    {
+        margin:10px;
+        padding:2px;
+        font-size:20px;
+        background:'red';
+        color:'white';   
+        text-align: center;
+        font-weight: 600;    
+        text-transform: capitalize;
+        }
+        
