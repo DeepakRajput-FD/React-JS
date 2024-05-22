@@ -13,6 +13,12 @@ import StyleComponent3 from './StyleComponents/StyleComponent3'
 import ALLStateExample from './StateExample/ALLStateExample'
 import ALLTasks from './ALLTask/ALLTasks'
 import AllClassComponents from './5_Class_Components/AllClassComponents'
+import AllPropsComponents from './PropsComponents/AllPropsComponents'
+import AllProps from './MyProps_task/AllProps'
+import AllLocalStorage from './LocalStorage/AllLocalStorage'
+import Map_Crud_Example1 from './Map_Crud/Map_Crud_Example1'
+import AllExample from './9_Hook/AllExample'
+import ALLApi from './API/ALLApi'
 
 export default function App() {
   return (
@@ -58,13 +64,28 @@ export default function App() {
 
 {/* All state example */}
 
-    <ALLStateExample/>
+    {/* <ALLStateExample/> */}
 
     {/* <ALLTasks/> */}
 
     {/* class components */}
 
     {/* <AllClassComponents/> */}
+
+    {/* Props */}
+
+    {/* <AllPropsComponents/> */}
+
+    {/* My Props Task */}
+
+    {/* <AllProps/> */}
+
+    {/* <AllLocalStorage/> */}
+
+    {/* <Map_Crud_Example1/> */}
+
+    {/* <AllExample/> */}
+    <ALLApi/>
 
     </div>
     

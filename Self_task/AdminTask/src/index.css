@@ -1,0 +1,45 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table
+{
+  width: 80%;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+td,th
+{
+  padding: 10px;
+  border: 2px solid  black;
+}
+.myINput
+{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+.myINput button
+{
+  padding: 10px;
+  border-radius: 10px;
+}
+.myINput input
+{
+  border-radius: 5px;
+}
+
+.checkbox
+{
+  width: 20px;
+  height: 20px;
+}
+.MyTab
+{
+  display: flex;
+  justify-content: space-around;
+}

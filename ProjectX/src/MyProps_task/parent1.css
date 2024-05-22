@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 50px auto;
+    gap: 20px;
+    flex-direction: column;
+}
+input::placeholder
+{
+    color: black;
+}
+input
+{
+    padding: 10px;
+}
+select
+{
+    padding: 10px;
+}
+button
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 600;
+    color: white;
+}

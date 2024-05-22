@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: rgb(201, 113, 113); */
+}
+input
+{
+    padding: 10px;
+    font-weight: 700;
+}
+.votecontainer
+{
+    display: flex;
+    width: 30%;
+    margin: 50px auto;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 50px 0px;
+    background-color: rgb(201, 113, 113);
+    border-radius: 10px;
+}
+.childContainer
+{
+    padding: 10px;
+}
+.showdata,h2
+{
+    text-align: center;
+    padding: 5px;
+}
+button
+{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: green;
+}

@@ -7,6 +7,7 @@ import Factorial from './Factorial'
 import DaysMonth from './DaysMonth'
 import MonthDays from './MonthDays'
 import DaysAndMonth from './DaysAndMonth'
+import UseEffectTaskButton from './UseEffectTaskButton'
 
 export default function ALLTasks() {
   return (
@@ -16,10 +17,11 @@ export default function ALLTasks() {
         {/* <TaskImg/> */}
         {/* <ButtonBack/> */}     
         
-        <Factorial/>
-        <DaysMonth/>
-          <MonthDays/>
-        <DaysAndMonth/>
+        {/* <Factorial/> */}
+        {/* <DaysMonth/> */}
+          {/* <MonthDays/> */}
+        {/* <DaysAndMonth/> */}
+        <UseEffectTaskButton/>
     </div>
   )
 }

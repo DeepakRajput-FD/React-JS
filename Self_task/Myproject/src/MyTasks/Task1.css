@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Textarea1
+{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.parent
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.parent2
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button
+{
+    padding: 10px;
+    border-radius: 5px;
+}

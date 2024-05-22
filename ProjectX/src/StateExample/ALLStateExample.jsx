@@ -49,9 +49,9 @@ export default function ALLStateExample() {
 
     {/* <SpreadExample1/> */}
 
-    <Fruits/>
+     {/* <Fruits/>  */}
 
-    {/* <RevFruits/> */}
+     <RevFruits/>
 
     </div>
   )

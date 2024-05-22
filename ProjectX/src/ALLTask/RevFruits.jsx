@@ -16,9 +16,13 @@ export default function RevFruits() {
 
     let rev=()=>
     {
-       
-            // console.log(array[i]);
-             Setthird([...array].reverse());
+       let arr=[];
+
+        for (let i = array.length; i >=0; i--) 
+        {
+            arr.push(array[i]);
+        }
+             Setthird([...arr]);
         }
 
 
@@ -50,7 +54,11 @@ export default function RevFruits() {
             background:'red',
             color:'white'       
         },
-
+        h1:
+        {
+            color:'greennp',
+            textTransform:'Capitalize'
+        }
 
     }
 
@@ -71,7 +79,7 @@ export default function RevFruits() {
         
             third.map((e,i)=>
             {
-               return <h1 key={i}>{e}</h1>
+               return <h1 style={Mystyle.h1} key={i}>{e}</h1>
             })
         }
 

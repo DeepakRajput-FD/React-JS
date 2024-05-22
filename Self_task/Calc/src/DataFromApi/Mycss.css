@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mycard
+{
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.MyAllcards
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
