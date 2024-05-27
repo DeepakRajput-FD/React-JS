@@ -80,12 +80,12 @@ export default function App() {
 
     {/* <AllProps/> */}
 
-    {/* <AllLocalStorage/> */}
+    <AllLocalStorage/>
 
     {/* <Map_Crud_Example1/> */}
 
     {/* <AllExample/> */}
-    <ALLApi/>
+    {/* <ALLApi/> */}
 
     </div>
     

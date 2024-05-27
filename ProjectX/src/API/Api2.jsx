@@ -8,7 +8,8 @@ export default function Api2() {
     useEffect(()=>
         {
             Alldata();
-        })
+            console.log("hello");
+        },[data2])
 
         let Alldata=async()=>
         {

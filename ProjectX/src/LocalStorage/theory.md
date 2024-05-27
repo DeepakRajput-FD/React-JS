@@ -39,3 +39,24 @@ useEffect : useEffect is a most popular hook function.
     (2) use Effect (callback ,[count]): it depend on count
 
     (3)use effect with blank dependencies : it will run only one time 
+
+
+
+sessionstorage vs localstorage
+    ---------------------------
+    sessiong storage : session storage keep value in browser or tab memory 
+    whenever we close tab or browser it will destroy session memory
+        this is a temporary storage specifier.
+        capacity of this storage specifier 5-10mb - depend on browser
+        sessionStorage.setItem('Key',value);
+
+localstorage : it keep the data for long time
+
+it does not destroy data on browser clone or tab close.
+    capacity of this localstorage is 5-10MB - depend on browser
+
+   localstorage mainly use for theme setting etc.
+
+    we can manually delete record from localstorage.
+
+    both data can access by specific port or application

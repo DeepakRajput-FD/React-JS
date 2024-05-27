@@ -67,11 +67,49 @@ button:focus-visible {
   }
 } */
 
-.MyAllCards
+.mydiv
+{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif; 
+}
+
+textarea
+{
+  border-radius: 5px;
+  margin: 30px 0px;
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  font-size: 20px;
+}
+.childDiv
+{
+  width: 50%;
+  border: 2px solid black;
+  margin: 30px 0px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px;
+}
+.mybuttons
 {
   display: flex;
-flex-wrap: wrap;
-/* gap: 20px; */
-justify-content: space-between;
-/* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+button
+{
+  background-color: rgb(168, 158, 158);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+body
+{
+  background-color: rgb(7, 7, 139);
 }
