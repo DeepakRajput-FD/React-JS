@@ -50,6 +50,8 @@ export default function CreateAdmin() {
           display: "flex",
           flexDirection: "column",
           padding: "10px",
+          background: "#4DD0E1",
+
         }}
         component='form'
 

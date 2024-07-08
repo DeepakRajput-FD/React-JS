@@ -6,23 +6,30 @@ export default function Tab(props)
     props.data1;
     props.data2;
 
+    console.log(props.data1);
+
     let [pending,setpending]=useState([]);
     
     let [records,setrecord]=useState([]);
+
+    let [change,setchange]=useState(false)
+    let [change1,setchange1]=useState(false)
     
         
         let hanlePending=()=>
             {
-                // completed task data
+                // pending task data
                 console.log('second');
-                setpending([...props.data2])
+                setpending([...props.data1])
                 // setrecord('');
+                setchange(!change);
             }
             
             let handleCompleted=()=>
                 {
                     // completed task data
-                    setrecord([...props.data1]) 
+                    setrecord([...props.data2])
+                    setchange1(!change1) 
                 }
                 
                 return (
@@ -40,8 +47,10 @@ export default function Tab(props)
                 </nav>
             </div>
 
-
+                    
             {
+                (change)
+                ?
                 pending.map((e,i)=>
                     {
                         return <div key={i} className="MyTab">
@@ -50,9 +59,13 @@ export default function Tab(props)
                             <h3>{e.prio}</h3>
                         </div>
                     })
+                    :
+                    ''
                 }
                 
                     {
+                        (change1)
+                        ?
                         records.map((e,i)=>
                             {
                                 return <div key={i} className="MyTab">
@@ -61,6 +74,8 @@ export default function Tab(props)
                             <h3>{e.prio}</h3>
                              </div>
                             })
+                            :
+                            ''
                     }
 
         </div>

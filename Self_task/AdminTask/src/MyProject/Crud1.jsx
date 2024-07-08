@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Tab from './Tab';
 
 export default function Crud1() {
@@ -14,18 +14,21 @@ export default function Crud1() {
 
     let [show,Setshow]=useState(false);
     
-    let [userId,SetuserId]=useState(1);
 
     let [secondArr,setsecondarr]=useState([]);
 
+    let [thirdArr,setthirdArr]=useState([]);
 
-    let obj={userId,name,Subject,prio}     
+
+    let obj={name,Subject,prio}     
    let handleAdd=()=>
     {
+
         setrecord([...record,obj])
         Setname('')
         Setsubject('')
-        SetuserId(userId+1)
+        // SetuserId(userId+1)
+        localStorage.setItem('AdminTask',JSON.stringify([...record,obj]))
     }
 
     
@@ -78,7 +81,7 @@ export default function Crud1() {
 
                         // console.log(other);
                         
-                        setsecondarr([...secondArr,CompletedTask]);
+                        setthirdArr([...thirdArr,CompletedTask]);
                         
                         setrecord([...oldData]);
                         // console.log('hii');
@@ -86,11 +89,11 @@ export default function Crud1() {
                     if (!check.checked)
                      {
 
-                        console.log(secondArr[i]);
+                        console.log(thirdArr[i]);
                         
-                        secondArr.splice(i,1)
+                        thirdArr.splice(i,1)
 
-                        setsecondarr([secondArr])
+                        setsecondarr([thirdArr])
 
                         console.log('nothing');
 
@@ -98,6 +101,13 @@ export default function Crud1() {
                     }
                     
                 }
+
+            useEffect(()=>
+                {
+                    let allData=JSON.parse(localStorage.getItem("AdminTask"))||[]
+                    setrecord(allData)
+                    console.log(allData);
+                },[])
                 
                 
                 return (
@@ -115,7 +125,7 @@ export default function Crud1() {
             <option value="High">High</option>
         </select>
 
-
+                          
         {
             !show ?
             <button onClick={handleAdd}>click</button>
@@ -145,7 +155,7 @@ export default function Crud1() {
             record.map((item,index)=>
                 {
                     return <tr key={index}>
-                        <td>{item.userId}</td>
+                        <td>{index+1}</td>
                         <td>{item.name}</td>
                         <td>{item.Subject}</td>
                         <td>{item.prio}</td>
@@ -160,7 +170,7 @@ export default function Crud1() {
 
             </table>
 
-            <Tab data1={secondArr} data2={record}  />
+            <Tab data1={secondArr} data2={thirdArr}  />
 
     </div>
   )
