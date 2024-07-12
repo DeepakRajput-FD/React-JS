@@ -1,0 +1,4 @@
+
+    UseMemo : it is the most popular hook  bascially used for calculation 
+    and it is memorize the calculation.
+    

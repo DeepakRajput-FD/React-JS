@@ -11,7 +11,7 @@ export default function App() {
     <Provider store={store} >
     <BrowserRouter>
     <Routes>
-    <Route path='/' Component={TodoComponent} ></Route>  
+    <Route path='/' Component={Manager} ></Route>  
     </Routes>
     </BrowserRouter>
     </Provider>

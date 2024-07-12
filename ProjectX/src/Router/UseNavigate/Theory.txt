@@ -1,0 +1,37 @@
+
+useNavigate():useNavigate() is one of the most
+popular hook which is used to create dynamic navigation in single page application.
+it is used for dynamic navigation.
+
+which is provide by react-router-dom.
+
+in simple programatically we can control navigation between components.
+
+navigate(-1):backward one step backward
+navigate(1):forward one step next
+
+routing : in simple language we can say navigation between one component another component 
+but as we know that react js is for SPA
+
+it just replace component instead of navigate
+
+to manage routing in react js there is one liberary its called React-Router-Dom
+before use routing we have to add this dependency in project.
+
+#npm i react-router-dom
+
+
+
+
+useLocation() : useLocation is one of the best hook which is provided by react-router-dom
+
+    which is used to handle browser path location.
+
+    we can access browser path,search name (?name='deepak'),hash (#section),state..
+
+    using of useLocation object we can access below things:
+
+    location.pathname
+    location.searchname
+    location.hash
+    location.state

@@ -66,12 +66,138 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-
+/* 
 .MyAllCards
 {
   display: flex;
 flex-wrap: wrap;
-/* gap: 20px; */
+gap: 20px;
 justify-content: space-between;
-/* align-items: center; */
+align-items: center;
+} */
+
+.Parent1
+{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+.subject
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox
+{
+  width: 20px;
+  height: 20px;
+}
+.gender
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.radio
+{
+  width: 20px;
+  height: 20px;
+}
+button
+{
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+input
+{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+table th,tr,td
+{
+  border: 1px solid black;
+  padding: 10px;
+}
+table
+{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card
+{
+  /* width: 300px; */
+  align-items: center;
+}
+.Allcard
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+.card img
+{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.buttons
+{
+  width: 100%;
+  font-size: 18px;
+  color: GOld;
+  font-weight: 600;
+}
+
+.card2 img
+{
+  width: 20%;
+  margin: 10px;
+}
+.card2
+{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 10px;
+  filter: bordr;
+  box-shadow: 10px 10px 20px pink;
+}
+.card2:hover
+{
+  box-shadow: 10px 10px 20px red;
+
+}
+#image2
+{
+  display: flex;
+  justify-content: center;
+}
+.card2 h5
+{
+  font-size: 30px;
+}
+.card2 h6
+{
+  font-size: 20px;
+}
+h2
+{
+  text-align: center;
+  padding: 10px;
+}
+.card:hover
+{
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px pink;
 }

@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+}
+#img1 {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+#input1 {
+  width: 400px;
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.inputes {
+  position: relative;
+}
+.label1 {
+  position: absolute;
+  top: 4px;
+  left: 45px;
+  font-weight: bold;
+}
+.search1 {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+}
+select {
+  border-radius: 5px;
+}
+.list1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.headset1 {
+  font-size: 40px;
+}
+.bgImage {
+  background: url(bgImage.jpg) no-repeat center/cover;
+  border-radius: 20px;
+  width: 98%;
+  margin: 0 auto;
+}
+.bgImage h1 {
+  padding: 100px 100px 20px 100px;
+  width: 50%;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+}
+.bgImage h3 {
+  padding-left: 90px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.inputes3 {
+  padding-left: 90px;
+  margin: 20px 0px;
+  position: relative;
+}
+#input2 {
+  width: 200px;
+  padding-left: 50px;
+  border-radius: 5px;
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+}
+.button1 {
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  padding: 10px;
+  height: 50px;
+  background-color: green;
+  color: white;
+}
+.cateogries h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.cateogries li {
+  font-size: 18px;
+  font-weight: 500;
+}
+.allcards {
+  padding: 10px;
+}
+.card {
+  padding: 10px;
+  border-radius: 5px;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .allcards
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .list1
+    {
+        font-size: 14px;
+    }
+    .list2
+    {
+        font-size: 12px;
+    }
+    .list2 i
+    {
+        font-size: 25px;
+    }
+    .list2 h4
+    {
+        font-size: 20px;
+    }
+    .list2 p
+    {
+        font-size: 12px;
+    }
+    .navlist1 li
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         padding: 10px;
+    }
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    
+    .navlist2 .label1
+    {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+    .navlist1
+    {
+      padding: 0;
+    }
+    .navlist4 li
+    {
+      font-size: 12px;      
+      }
+      #img1
+      {
+          width: 150px;
+          margin: 0;
+      } 
+      #input1
+      {
+          width: 300px;
+          height: 40px;
+      }
+     
+    .list1 h4
+    {
+        font-size: 10px;
+        }
+        .list1 li
+        {
+          align-items: center;
+          font-size: 12px;
+      }
+      .list2 h4
+      {
+          font-size: 12px;
+      }
+      .navlist3
+      {
+          align-items: center;
+      }
+      .navlist3 h4
+      {
+          font-size: 12px;
+      }
+      .list2 i
+      {
+        font-size: 20px;
+      }
+  }
+  
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) 
+{
+  .navlist2 li
+  {
+    font-size: 12px;
+  }
+  .navlist2
+  {
+    flex-wrap: wrap;
+  }
+  
+}
+
+
+/* for mobile */
+@media (max-width: 576px) {
+  
+  .list1
+  {
+    flex-direction: column;
+    padding: 10px 0px;
+    }
+    .list1 li
+    {
+    font-size: 20px;
+  }
+  .navlist3
+  {
+    flex-direction: column;
+  align-content: center;
+  }
+
+  .navlist2 li
+  {
+    font-size: 20px;
+  }
+  .navlist2 .label1
+  {
+    font-size: 13px;
+  }
+
+  .navlist4
+  {
+    padding: 0;
+  }
+  .navlist4 li
+  {
+    font-size: 10px;
+  }  
+  .bgImage h1
+  {
+    width: 80%;
+    padding: 50px 20px;
+  }
+}

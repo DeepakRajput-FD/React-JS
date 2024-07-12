@@ -1,18 +1,10 @@
-import React, { useState } from 'react'
-import Calc1 from './Calc1'
-import DataAPI from './MyComponents/DataAPI'
-import AllStates from './ALlStates/AllStates'
+import React from "react";
+import Router from "./Router";
 
-export default function App()
- {
- 
-
+export default function App() {
   return (
     <div>
-      
-   {/* <DataAPI/> */}
-   <AllStates/>
-
+      <Router/>
     </div>
-  )
+  );
 }

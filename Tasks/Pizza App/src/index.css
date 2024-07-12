@@ -1,0 +1,236 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.MybillSystem
+{
+    display: flex;
+    width: 30%;
+    margin: 50px 20px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:  #c08b5ccf;
+    /* backdrop-filter: blur(100px); */
+}
+.MybillSystem input
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+.MybillSystem label
+{
+    color: black;
+    font-size: 20px;
+}
+button
+{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-weight: 550;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid white;
+}
+.AllCards
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.card
+{
+    background-color: #FFC94A;
+    text-align: center;
+    color: white;
+    max-height: fit-content;
+}
+.card h5
+{
+    opacity: 0;
+}
+.card .pizaaimg
+{
+    opacity: 0;
+}
+.card .pastaimg
+{
+    opacity: 0;
+}
+.card .softimg
+{
+    opacity: 0;
+}
+.card:hover h5
+{
+    opacity: 1;
+
+    /* background-color: black; */
+}
+.card:hover .pizaaimg 
+{
+    opacity: 1;
+
+}
+.card:hover .pastaimg
+{
+    opacity: 1;
+
+}
+.card:hover  .softimg
+{
+    opacity: 1;
+}
+
+body
+{
+    background: url(Designer.png)no-repeat center/cover;
+}
+.modal
+{
+    border:2px solid white;
+}
+.box
+{
+    border: 2px solid black;
+    width: 350px;
+    /* height: 300px; */
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.box button
+{
+    padding: 10px 20px;
+    background-color: black;
+}
+.parentDiv
+{
+    position: relative;
+}
+.sorry
+{
+    padding: 10px;
+    text-align: center;
+    /* background-color: black; */
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+}
+img
+{
+    width: 100px;
+    border-radius: 10px;
+    /* object-fit: cover; */
+}
+
+.Images
+{
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+    height: 300px;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+.Images img
+{
+    width: 300px;
+    margin-top: 20px;
+}
+.joint
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* align-items: center; */
+}
+.offer
+{
+    /* width: 300px; */
+    border: 2px solid white;
+    height: 300px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: #ffc94aea;
+}
+.offer h4
+{
+    padding: 10px;
+}
+#PastaImage1
+{
+    object-fit: cover;
+    /* width: 350px; */
+}
+.offercontent h4
+{
+    color: red;
+    font-size: 20px;
+}
+.offercontent h4 ~h4
+{
+    font-size: 20px;
+    color: green;
+}
+#icecream
+{
+    color: crimson;
+    font-weight: 600;
+}
+#soft1
+{
+    width: 250px;
+}
+#pizzaimage1
+{
+    border: 2px solid black;
+    background-color: #FFBB00;
+}
+#pizzaimage1:hover
+{
+    transition-duration: 1.5s;
+    transition-property: transform ;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.5);
+}
+#PastaImage1
+{
+    border: 2px solid black;
+    background-color: #FFBB00;
+}
+#PastaImage1:hover
+{
+    transition-duration: 1.5s;
+    transition-property: transform ;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.5);
+}
+.Images
+{
+    overflow: hidden;
+}

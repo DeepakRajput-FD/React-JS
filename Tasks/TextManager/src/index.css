@@ -74,6 +74,8 @@ button:focus-visible {
   display: flex;
   gap: 20px;
   font-family: sans-serif; 
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 textarea
@@ -84,11 +86,13 @@ textarea
   height: 400px;
   padding: 10px;
   font-size: 20px;
+  background: transparent;
+  border: 5px solid black;
 }
 .childDiv
 {
   width: 50%;
-  border: 2px solid black;
+  border: 5px solid black;
   margin: 30px 0px;
   font-size: 20px;
   border-radius: 5px;
@@ -103,13 +107,15 @@ textarea
 }
 button
 {
-  background-color: rgb(168, 158, 158);
+  background-color: transparent;
   padding: 10px;
   border-radius: 5px;
   font-size: 15px;
   color: white;
+  border: 2px solid white;
 }
 body
 {
   background-color: rgb(7, 7, 139);
+  background: url(./bgImage.webp)no-repeat center/cover;
 }

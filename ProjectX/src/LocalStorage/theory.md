@@ -60,3 +60,8 @@ it does not destroy data on browser clone or tab close.
     we can manually delete record from localstorage.
 
     both data can access by specific port or application
+<!-- 
+useRef: useref is a one of most popular hook in react js
+
+useref which is refer specific component.
+    e.g.. on button click we can focus on input box.   -->

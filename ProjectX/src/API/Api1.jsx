@@ -7,7 +7,7 @@ export default function Api1() {
     useEffect(()=>
         {
             handleAllData();
-        })
+        },[])
 
         let handleAllData=async()=>
             {
@@ -15,6 +15,7 @@ export default function Api1() {
                 let secondData=await responsedata.json();
                 setdata(secondData);
             }
+
 
     return (
     <div>

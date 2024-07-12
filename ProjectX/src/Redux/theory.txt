@@ -1,0 +1,67 @@
+
+
+state management :
+
+localstate : localstate manage by usestate() (hook)
+
+props: props is used to pass the data from one comp to another comp.
+when we want to pass or suply state between different component at that time we use props there.
+
+                                    App
+                                    |
+                                    v
+    ===============================================================
+    |                                  |
+    v                                  v
+    comp1                              comp4
+    |                                   |
+    comp2                               comp5
+    |                                   |
+    comp3                               comp6
+
+ ContextAPI: context is used to overcome props drilling. it is manage only their,which is applicable only on specific tree part
+ ==================================================================================================================================
+
+    before Redux :     flux : introduce by facebook
+
+ Redux : Redux a global state management javascript library.
+    
+    which is store all state at single location and its called (store)
+
+    key Points :
+    (1)store
+    (2)Action
+    (3)reducers : one kind of funtion which manage Action
+    (4)dispatching :
+    (5)getting state :
+
+    latest version of redux is redux toolkit
+
+    =>create slice
+    =>configureSlice (combination of slice)
+
+    download dependencies
+    ======================
+    npm i redux react-redux
+    npm install @reduxjs/toolkit
+
+
+
+
+   ===========================
+   useReducers : is a hook which is use for state management.
+
+      there is many thing similar between and useReducer.
+      useState use for simple local state management.
+      useReducer : use for complex state management.
+      useReducer which is accept 2 parameters :
+      
+      const [var,funtion]=usestate(initialvalue);
+                           vs
+
+     const [var,dispatch]=useReducer(reducer,initialvalue);
+                           |
+                           v
+                           reducer(currentState,action){
+                              
+                           }                           

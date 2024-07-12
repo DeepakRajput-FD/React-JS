@@ -1,0 +1,2 @@
+ use params is a hook which is used to get the parameter of the url
+ 

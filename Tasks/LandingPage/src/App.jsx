@@ -1,12 +1,11 @@
 import React from 'react'
-import NavBar from './MyComponents/NavBar'
-import Page1 from './MyComponents/Page1'
+import AllComponent from './AllComponent'
+
 
 export default function App() {
   return (
-    <div>
-     <NavBar/>
-     <Page1/>
-    </div>
+    <>
+    <AllComponent/>
+    </>
   )
 }
