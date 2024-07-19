@@ -1,0 +1,13 @@
+
+    lazyLoading : which is main technique
+
+    which is used to handle component loading time
+
+    it ignore heavy component and loading require component first
+
+    lazy loading mainly use for component performance improvement.
+
+    which is contain 2 key points
+
+    React.Lazy() : which is use to import component
+    suspence : it handle code here till another component is loading. 
