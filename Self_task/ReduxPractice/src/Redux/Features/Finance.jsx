@@ -10,11 +10,11 @@ const slice1= createSlice({
             state.budget=action.payload.budget;
         },
         AddItems:(state,action)=>{
-            console.log(action.payload);
+            // console.log(action.payload);
             state.data.push(action.payload)
         },
         decrmentUserBudget:(state,action)=>{
-            console.log(action.payload);
+            // console.log(action.payload);
             state.budget=state.budget-action.payload;
         }
     }

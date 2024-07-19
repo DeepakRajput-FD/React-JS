@@ -36,10 +36,11 @@ export default function Manager() {
   });
 
   return (
-    <>
+    <Box sx={{background:' #89ABE3',width:'100%',height:'600px',borderRadius:'20px',paddingTop:'20px'}} >
       <Box sx={{ display: "flex", justifyContent: "space-around", margin: 2 }}>
         <TextField
           placeholder="enter salary"
+          
           onChange={(e) => setsalary(e.target.value)}
         />
         <TextField
@@ -80,10 +81,10 @@ export default function Manager() {
           flexDirection:'column',
           gap:1,
           fontFamily:'sans-serif',
-          background:'green'
+          background:'#EA738D'
         }}
       >
-        <h5>Expenses Added</h5>
+        <Typography variant="h5" sx={{color:'white',textAlign:'center',p:1}} >Expenses Added</Typography>
 
         <TextField
           placeholder="Enter Item Name"
@@ -99,7 +100,9 @@ export default function Manager() {
           Add
         </Button>
       </Box>
-      <Box sx={{background:'blue',color:'white',display:'flex',flexDirection:'column',justifyContent:'space-between', width: "400px",height: "300px",padding:2,borderRadius:2}} >
+      <Box sx={{background:'#EA738D',color:'white',display:'flex',flexDirection:'column',justifyContent:'space-between', width: "400px",height: "300px",padding:2,borderRadius:2}} >
+
+        <Typography>All Expenses</Typography>
 
         {ItemData.map((e, i) => {
           return (
@@ -112,6 +115,6 @@ export default function Manager() {
       </Box>
       </Box>
 
-    </>
+    </Box>
   );
 }
