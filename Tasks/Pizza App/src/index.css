@@ -58,42 +58,6 @@ button
     color: white;
     max-height: fit-content;
 }
-.card h5
-{
-    opacity: 0;
-}
-.card .pizaaimg
-{
-    opacity: 0;
-}
-.card .pastaimg
-{
-    opacity: 0;
-}
-.card .softimg
-{
-    opacity: 0;
-}
-.card:hover h5
-{
-    opacity: 1;
-
-    /* background-color: black; */
-}
-.card:hover .pizaaimg 
-{
-    opacity: 1;
-
-}
-.card:hover .pastaimg
-{
-    opacity: 1;
-
-}
-.card:hover  .softimg
-{
-    opacity: 1;
-}
 
 body
 {
