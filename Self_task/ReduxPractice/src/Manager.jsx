@@ -36,7 +36,12 @@ export default function Manager() {
   });
 
   return (
-    <Box sx={{background:' #89ABE3',width:'100%',height:'600px',borderRadius:'20px',paddingTop:'20px'}} >
+
+    
+    <Box sx={{background:' #89ABE3',width:'100%',height:'600px|| 100%',borderRadius:'20px',paddingTop:'20px',paddingBottom:"20px"}} >
+      
+      <Typography variant="h3" sx={{textAlign:'center',color:'white'}} >Welcome to Finance  </Typography>
+      
       <Box sx={{ display: "flex", justifyContent: "space-around", margin: 2 }}>
         <TextField
           placeholder="enter salary"
@@ -68,7 +73,7 @@ export default function Manager() {
         </Typography>
       </Box>
 
-          <Box sx={{display:'flex',justifyContent:'space-around',alignItems:'center'}} >
+          <Box sx={{display:'flex',justifyContent:'space-around',alignItems:'center',flexWrap:'wrap'}} >
 
       <Box
         sx={{
@@ -81,7 +86,7 @@ export default function Manager() {
           flexDirection:'column',
           gap:1,
           fontFamily:'sans-serif',
-          background:'#EA738D'
+          background:'#EA738D',
         }}
       >
         <Typography variant="h5" sx={{color:'white',textAlign:'center',p:1}} >Expenses Added</Typography>
@@ -106,7 +111,7 @@ export default function Manager() {
 
         {ItemData.map((e, i) => {
           return (
-            <Box sx={{display:'flex',gap:2,fontFamily:'sans-serif',textTransform:'capitalize',border:'2px solid white',padding:2,borderRadius:4}} >
+            <Box  key={i} sx={{display:'flex',gap:2,fontFamily:'sans-serif',textTransform:'capitalize',border:'2px solid white',padding:2,borderRadius:4}} >
               <Typography  >{e.price}</Typography>
               <Typography sx={{color:'black'}} >{e.item}</Typography>
             </Box>

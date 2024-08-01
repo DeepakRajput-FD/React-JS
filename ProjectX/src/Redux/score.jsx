@@ -11,4 +11,4 @@ const scoreReducers=createSlice({
     })
 })
 
-export default scoreReducers.reducer;
+export default scoreReducers.reducer;  

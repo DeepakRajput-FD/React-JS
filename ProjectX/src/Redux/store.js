@@ -7,6 +7,7 @@ import ApiProducts from "./Features/ApiProducts";
 export const store=configureStore({
         reducer:
         {
+            
             counterKey:Counter,
             scoreKey:score,
             todokey:todo,
